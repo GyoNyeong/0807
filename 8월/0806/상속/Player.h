@@ -1,0 +1,14 @@
+#pragma once
+#include "Actor.h"
+
+class APlayer : public AActor
+{
+public:
+	APlayer();
+	~APlayer();
+
+	void Move();
+
+	void Attack();
+};
+
